@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return 'Hello World! v2'
 
 @app.route('/process_payment', methods=['POST'])
 def process_payment():
